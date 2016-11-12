@@ -5,17 +5,19 @@
 
 /*type*/
 body{
-    font-family: 'Roboto', sans-serif;
+/*    font-family: 'Titillium Web', sans-serif;*/
+/*    font-family: 'Cormorant Garamond', serif;*/
     background: black;
 }
 
 /*content containers*/
 .cd-gallery li{
     background: pink;
-    padding: 1em;
+    padding: 0.5em;
 }
 
 /*grid view*/
+
 .grid li.mix{
     background: yellow;
 }
@@ -24,9 +26,8 @@ body{
 .list li.mix{
     background: cyan;
     width: 100%;
-    
 }
 
-.list li.mix p{
+.grid li.mix p{
     display: none;
 }
