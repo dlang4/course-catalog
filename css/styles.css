@@ -14,20 +14,25 @@ body{
 .cd-gallery li{
     background: pink;
     padding: 0.5em;
+    width: 100%;
+    font-size: 1em;
 }
 
 /*grid view*/
 
 .grid li.mix{
     background: yellow;
+    width: auto;
 }
 
 /*list view*/
 .list li.mix{
     background: cyan;
     width: 100%;
+    font-size: 1em;
 }
 
 .grid li.mix p{
     display: none;
+    font-size: 2em;
 }
