@@ -10,16 +10,35 @@
 body {
     font-family: 'Titillium Web', sans-serif;
     background: #6d6e71;
+    color: black;
 }
 
+.cd-header h1 {
+    font-size: 3em;
+}
 
+.cd-filter-trigger, .cd-tab-filter a.selected, .cd-tab-filter a:hover{
+    color: #a10022;
+}
+.cd-filter::before, .cd-filter .cd-close, .cd-filter .cd-close a:hover{
+    background: #a10022;
+}
+.cd-filter-trigger{
+    background: white;
+}
+
+.cd-tab-filter a.selected{
+    box-shadow: inset 0 -2px 0 #a10022;
+}
 /*content containers*/
+{
+    color: #a10022;   
+    }
 
 .cd-gallery li {
     background: white;
     padding: 0.5em;
     width: 100%;
-    font-size: 1.25em;
     color: black;
 }
 
@@ -47,6 +66,7 @@ p {
 
 .grid li.mix {
     width: auto;
+    font-size: 1.5em;
 }
 
 
