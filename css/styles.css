@@ -13,27 +13,40 @@ body {
     color: black;
 }
 
+a:hover {
+    color: #6d6e71;
+}
+
 .cd-header h1 {
     font-size: 3em;
 }
 
-.cd-filter-trigger, .cd-tab-filter a.selected, .cd-tab-filter a:hover{
+.cd-filter-trigger,
+.cd-tab-filter a.selected {
     color: #a10022;
 }
-.cd-filter::before, .cd-filter .cd-close, .cd-filter .cd-close a:hover{
+
+.cd-filter::before,
+.cd-filter .cd-close {
     background: #a10022;
 }
-.cd-filter-trigger{
-    background: white;
+
+.cd-filter-trigger {
+    background: #a10022;
+    padding-right: 1em;
+    color: white;
 }
 
-.cd-tab-filter a.selected{
+.cd-tab-filter a.selected {
     box-shadow: inset 0 -2px 0 #a10022;
 }
+
+
 /*content containers*/
+
 {
-    color: #a10022;   
-    }
+    color: #a10022;
+}
 
 .cd-gallery li {
     background: white;
@@ -67,6 +80,7 @@ p {
 .grid li.mix {
     width: auto;
     font-size: 1.5em;
+    transition: all 1s;
 }
 
 
@@ -75,6 +89,7 @@ p {
 .list li.mix {
     width: 100%;
     font-size: 1em;
+    transition: all 1s;
 }
 
 .grid li.mix p {
