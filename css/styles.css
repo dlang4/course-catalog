@@ -1,33 +1,44 @@
 /* YOUR STYLES */
 .cd-header{
-    background: red;
+    background: #a10022;
 }
 
 /*type*/
 body{
-/*    font-family: 'Titillium Web', sans-serif;*/
-/*    font-family: 'Cormorant Garamond', serif;*/
-    background: black;
+   font-family: 'Titillium Web', sans-serif;
+    background: #6d6e71;
 }
 
 /*content containers*/
 .cd-gallery li{
-    background: pink;
+    background: white;
     padding: 0.5em;
     width: 100%;
     font-size: 1em;
+
+}
+
+h1{
+    font-size: 1.5em;
+}
+
+h3{
+    font-style: italic;
+    font-size: 1.25em;
+}
+
+h3, p{
+        font-family: 'Cormorant Garamond', serif;
 }
 
 /*grid view*/
 
 .grid li.mix{
-    background: yellow;
     width: auto;
 }
 
 /*list view*/
 .list li.mix{
-    background: cyan;
     width: 100%;
     font-size: 1em;
 }
